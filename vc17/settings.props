@@ -7,6 +7,7 @@
         _CRT_SECURE_NO_WARNINGS;
         _WIN32_WINNT=0x0501;
         CRASH_HANDLER;
+        FRAMEWORK_GRAPHICS;
         FRAMEWORK_NET;
         FRAMEWORK_SOUND;
         BUILD_TYPE="RelWithDebInfo";
