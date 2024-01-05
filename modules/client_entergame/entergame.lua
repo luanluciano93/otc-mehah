@@ -65,10 +65,8 @@ local function onCharacterList(protocol, characters, account, otui)
         EnterGame.clearAccountFields()
     end
 
-	--if loadBox then
-		loadBox:destroy()
-		loadBox = nil
-	--end
+    loadBox:destroy()
+    loadBox = nil
 
     for _, characterInfo in pairs(characters) do
         if characterInfo.previewState and characterInfo.previewState ~= PreviewState.Default then
